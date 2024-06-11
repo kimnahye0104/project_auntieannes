@@ -1,0 +1,16 @@
+body {font-family: "Noto Sans KR", sans-serif;}
+header {}
+header h1 {}
+header h1 a {}
+header h1 a img {}
+/* ---------------------------- header 끝 */
+main {}
+main .bg {width: 100vw; height: 1000px; margin: 0 auto;}
+main .bg h2 {font-size: 3.75rem; font-weight: 700;}
+main .bg123 {
+    background: url(../images/bg123.jpg);
+    width: 1920px; height: 3000px;
+    background-size: cover;
+    background-position: center;
+}
+/* ---------------------------- main > bg123 끝 */

@@ -4,4 +4,4 @@
 * **made by** : kimnahye
 * **e-mail** : `ericanahye@naver.com` / `ericanahye@gmail.com`
 ### 디자인 설계
-1. **color** : (메인색블루 #005AD5 메인색오렌지 #FFA12D 글자색 #222222 배경데코색 #EEF5FF 배경색 #FFFFFF)
+1. **color** : (메인색블루 `#005AD5` 메인색오렌지 `#FFA12D` 글자색 `#222222` 배경데코색 `#EEF5FF` 배경색 `#FFFFFF`)

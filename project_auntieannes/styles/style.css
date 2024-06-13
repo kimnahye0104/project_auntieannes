@@ -1,0 +1,349 @@
+/* 
+    메인컬러2가지
+    005AD5
+    FFA12D
+*/
+body {font-family: "Noto Sans KR", sans-serif;}
+header {
+    background-color: #fff;
+    width: 100%; height: 80px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    position: fixed; top: 0; z-index: 999;
+}
+header h1 {
+    width: 1920px;
+    text-align: center; margin: 0 auto;
+    padding-top: 15px;
+}
+header h1 a {}
+header h1 a img {}
+/* ---------------------------- header 끝 */
+main {width: 100%; margin: 0 auto; letter-spacing: -0.4px;}
+main .bg {width: 100vw; height: 1000px; margin: 0 auto;}
+main .bg h2 {font-size: 3.75rem; font-weight: 700;}
+main .bg .title > p {font-size: 1.625rem;}
+main .bg123 {
+    background: url(../images/bg123.jpg);
+    width: 1920px; height: 3000px;
+    background-size: cover;
+    background-position: center;
+}
+/* -------- main > bg123 (공통선택자) */
+main .bg123 .bg1 {
+    text-align: center;
+    height: 1000px;
+}
+main .bg123 .bg1 .title {padding-top: 140px;}
+main .bg123 .bg1 .title p {font-weight: 500; color: #fff;}
+main .bg123 .bg1 .title h2 {color: #FFA12D; padding-top: 10px;}
+main .bg123 .bg1 .corn_g {
+    display: flex;
+}
+main .bg123 .bg1 .corn_g .left {
+    position: absolute;
+    top: 702px; left: -288px;
+}
+main .bg123 .bg1 .corn_g .left img {}
+main .bg123 .bg1 .corn_g .center {margin-left: 570px;}
+main .bg123 .bg1 .corn_g .center img {}
+main .bg123 .bg1 .corn_g .right {
+    width: 335px;
+    position: absolute;
+    top: 287px; right: -106px;
+}
+main .bg123 .bg1 .corn_g .right img {width: 100%;}
+/* bg1 corn 애니메이션 */
+main .bg123 .bg1 .corn_g .left img {
+    animation: rotate 15s linear infinite;
+}
+main .bg123 .bg1 .corn_g .right img {
+    animation: rotate 10s linear infinite;
+}
+@keyframes rotate {
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+}
+/* -----------------------------------------bg1 */
+main .bg123 .bg2 {
+    width: 1920px; height: 1000px;
+    padding-top: 65px;
+}
+main .bg123 .bg2 > .title {padding-left: 420px;}
+main .bg123 .bg2 > .title h2 {line-height: 87px;}
+main .bg123 .bg2 .menu {margin-top: 130px; margin-left: 425px;}
+main .bg123 .bg3 .menu {margin-top: 123px; margin-left: 383px;}
+/* 
+    bg2,bg3 디자인 공통 선택자(아래) (중간 선택자 삭제 후 진행)
+*/
+main .bg123 .bg2 .menu, 
+main .bg123 .bg3 .menu {
+    display: flex; flex-flow: row nowrap;
+    align-items: center;
+    position: relative;
+}
+main .bg123 .menu .product {
+    position: relative;
+    height: 583px;
+}
+main .bg123 .menu .product .bg_deco {
+    display: inline-block;
+    background-color: #005AD5;
+    width: 455px; height: 455px;
+    border-radius: 50%;
+}
+main .bg123 .menu .product img {
+    position: absolute;
+    top: 0; left: 0;
+    transition: scale 0.3s;
+}
+/* 신제품 이미지 마우스 hover */
+main .bg123 .menu .product:hover img {scale: 1.12;}
+
+main .bg123 .bg2 .menu .info {margin-left: 100px;}
+main .bg123 .bg3 .menu .info {margin-right: 100px;}
+main .bg123 .menu .info .top {
+    display: flex; flex-flow: row nowrap;
+    align-items: center;
+}
+main .bg123 .menu .info .top .num {
+    font-size: 4.688rem; letter-spacing: -10px; font-weight: 700;
+    color: #222; margin-right: 20px; line-height: 107px;
+}
+main .bg123 .menu .info .top .tit {}
+main .bg123 .menu .info .top .tit p {font-size: 1.625rem; font-weight: 700; color: #FFA12D;}
+main .bg123 .menu .info .top .tit h3 {font-size: 2.125rem; font-weight: 700; color: #005AD5; margin-top: 10px;}
+main .bg123 .menu .info > p {margin: 30px 0 90px; font-size: 1.25rem; letter-spacing: -0.4px;}
+/* 
+    bg2,bg3 표 공통 선택자(아래) (중간 선택자 삭제 후 진행)
+    main .bg123 .bg2 .menu .info .detail_info > .title
+    main .bg123 .bg2 .menu .info .detail_info > .t
+*/
+main .bg123 .menu .info .detail_info {}
+main .bg123 .bg2 .menu .info .detail_info .title,
+main .bg123 .bg3 .menu .info .detail_info .title {
+    margin-bottom: 20px; font-weight: 500;
+}
+main .bg123 .detail_info .t {}
+main .bg123 .detail_info .t tr {
+    border: 1px solid #ddd; border-left: 0; border-right: 0;
+    height: 40px; 
+}
+main .bg123 .detail_info .t tr th {}
+main .bg123 .detail_info .t tr td {}
+main .bg123 .detail_info .t tr td:nth-child(2) {
+    padding-right: 30px;
+    border-right: 1px solid #ddd;
+}
+main .bg123 .detail_info .t tr td:nth-child(4) {padding-right: 15px;}
+main .bg123 .detail_info .t tr th:nth-child(1) {padding: 0 50px 0 15px;}
+main .bg123 .detail_info .t tr th:nth-child(3) {padding: 0 50px 0 30px;}
+/* ---------------------------- main > bg123 끝 */
+main .bg4 {
+    background-color: #005AD5;
+    height: 1000px;
+}
+main .bg4 .container {
+    width: 1920px;
+    margin: 0 auto;
+    height: calc(100% - 40px);
+    padding-left: 420px;
+    border: 1px solid #000;
+}
+main .bg4 .container .top {
+    display: flex; flex-flow: column nowrap;
+    justify-content: space-between;
+    height: 100%;
+}
+main .bg4 .container .title {
+    display: flex; align-items: center;
+    color: #fff;
+    padding: 40px 0;
+}
+main .bg4 .container .title h2 {margin-right: 60px;}
+main .bg4 .container .title p {}
+main .bg4 .container .title p em {color: #FFA12D; font-weight: 700;}
+main .bg4 .container .review {}
+main .bg4 .container .review img {}
+main .bg4 .container .review_t {
+    margin: 60px 0; color: #fff;
+    font-size: 1.25rem; letter-spacing: -0.2px;
+    width: 1075px;
+}
+main .bg4 .container .review_t tr {
+    border: 1px solid #fff;
+    border-left: 0; border-right: 0;
+    height: 60px;
+}
+main .bg4 .container .review_t tr th {padding: 0 70px 0 20px;}
+main .bg4 .container .review_t tr td:first-child {}
+main .bg4 .container .review_t tr td:last-child {}
+main .bg4 .container .event_saving {
+    width: 100%;
+}
+main .bg4 .container .event_saving > p {
+    font-size: 0.875rem; color: #fff;
+    margin-bottom: 20px;
+}
+main .bg4 .container .event_saving #event_frm {
+    background-color: #fff;
+    width: 1075px;
+    height: 232px; border-radius: 20px 20px 0 0;
+    padding: 43px 60px 0 60px;
+}
+main .bg4 .container .event_saving #event_frm .event_g {}
+main .bg4 .container .event_saving #event_frm .event_g ul {
+    display: flex; flex-flow: row nowrap;
+    justify-content: space-between;
+}
+main .bg4 .container .event_saving #event_frm .event_g ul li {
+    display: flex; align-items: center; justify-content: space-between;
+}
+/* 이름연락처한줄평 글자 공통 */
+main .bg4 .container .event_saving #event_frm .event_g .review span,
+main .bg4 .container .event_saving #event_frm .event_g ul li span {font-weight: 700;}
+main .bg4 .container .event_saving #event_frm .event_g ul li input {
+    width: 375px; border: 2px solid #FFA12D;
+    height: 40px; margin-left: 34px;
+    font-size: 0.875rem; padding-left: 20px;
+    outline: none;
+}
+main .bg4 .container .event_saving #event_frm .event_g .review {
+    display: flex; align-items: center; justify-content: space-between;
+    margin: 20px 0 25px;
+}
+main .bg4 .container .event_saving #event_frm .event_g .review span {}
+main .bg4 .container .event_saving #event_frm .event_g .review input {
+    border: 2px solid #FFA12D;
+    height: 40px; width: 890px; font-size: 0.875rem;
+    padding-left: 20px; outline: none;
+}
+
+main .bg4 .container .event_saving #event_frm .info_saving {
+    display: flex; justify-content: space-between;
+}
+main .bg4 .container .event_saving #event_frm .info_saving span {
+    color: #969696; font-size: 0.75rem; line-height: 1.5;
+}
+main .bg4 .container .event_saving #event_frm .info_saving #save_btn {
+    background-color: #005AD5; color: #fff; border: 0;
+    width: 150px; height: 40px; font-weight: 500; font-size: 1.125rem;
+}
+main .bg4 .btm_box {
+    background-color: #FFA12D;
+    width: 100%; height: 40px;
+}
+main .bg4 .container .event_saving #event_frm .info_saving #save_btn:hover {background-color: #003783;}
+/* ---------------------------- main > bg4 끝 */
+main .bg56 {
+    background: url(../images/bg56_all_deco.jpg);
+    width: 1920px; height: 2000px;
+    background-size: cover;
+    background-position: center;
+}
+main .bg56 .container {margin-left: 420px;}
+main .bg56 .container > .title {padding: 116px 0;}
+main .bg56 .container > .title h2 {line-height: 87px;}
+main .bg56 .container .best {
+    display: flex; flex-flow: row nowrap;
+    justify-content: flex-start;
+    margin-bottom: 150px;
+    letter-spacing: -0.4px;
+}
+main .bg56 .container .best:last-child {margin: 0;}
+main .bg56 .container .best li {}
+main .bg56 .container .best li h3 {
+    font-size: 2.125rem;
+    margin: 40px 0 20px;
+    color: #FFA12D; font-weight: 700;
+}
+main .bg56 .container .best2 li h3 {color: #005AD5;}
+main .bg56 .container .best li p {font-size: 1.625rem; line-height: 1.5;}
+main .bg56 .container .best .product {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 400px; height: 400px; border-radius: 20px;
+    text-align: center;
+}
+main .bg56 .container .best .product img {height: 100%;}
+/* 이미지 마우스 애니메이션 */
+main .bg56 .container .best .product:hover {
+    border: 3px solid #005AD5;
+}
+main .bg56 .container .best2 .product:hover {
+    border: 3px solid #FFA12D;
+}
+
+main .bg56 .container .best li:nth-child(2) {
+    margin-left: 80px;
+}
+main .bg56 .container .best1 {}
+main .bg56 .container .best2 {}
+main .bg56 .container .best2 li:nth-child(1) {text-align: right;}
+main .bg56 .container .best3 {}
+/* ---------------------------- main > bg5,6 끝 */
+main .bg7 {
+    background: url(../images/bg7.jpg);
+    width: 1920px; height: 1000px;
+    background-size: cover;
+    background-position: center;
+}
+main .bg7 .container {padding-left: 335px;}
+main .bg7 .container .title {
+    display: flex; flex-flow: row nowrap;
+    align-items: center;
+    padding: 90px 0 40px;
+}
+main .bg7 .container .title > p {margin-right: 20px;}
+main .bg7 .container .title > p img {}
+main .bg7 .container .title h2 {color: #005AD5;}
+main .bg7 .container ul {
+    display: flex; flex-flow: row nowrap;
+    padding-left: 86px;
+}
+main .bg7 .container ul .left {
+    margin-right: 390px;
+    box-shadow: 3px 7px 10px rgba(0, 0, 0, 0.25);
+}
+main .bg7 .container ul .left img {}
+main .bg7 .container ul .right {
+    display: flex; flex-flow: column nowrap;
+    justify-content: space-between;
+}
+main .bg7 .container ul .right img {
+    border-radius: 10px;
+    box-shadow: 3px 7px 10px rgba(0, 0, 0, 0.25);
+}
+/* ---------------------------- main > bg7 끝 */
+main .bg8 {background-color: #fff; height: 1000px;}
+main .bg8 .container {
+    border: 1px solid #000;
+    height: 100%; width: 1920px;
+    margin: 0 auto;
+    padding: 0 420px;
+    text-align: center;
+}
+main .bg8 .container .title {
+    padding-top: 117px; display: flex; flex-flow: row nowrap;
+    align-items: center;
+}
+main .bg8 .container .title h2 {margin-right: 40px; color: #005AD5;}
+main .bg8 .container .title > p {}
+main .bg8 .container .sns_g {
+    width: 1078px;
+    display: flex; flex-flow: row nowrap;
+    justify-content: space-between;
+    margin: 117px 0;
+}
+main .bg8 .container .sns_g a {opacity: 0.6;}
+main .bg8 .container #go_sns_btn {
+    width: 150px; line-height: 40px;
+    background-color: #005AD5;
+    color: #fff;
+    font-size: 1.125rem;
+    display: inline-block;
+    text-align: center;
+}
+main .bg8 .container .sns_g a:hover {opacity: 1;}
+main .bg8 .container #go_sns_btn:hover {background-color: #003783;}
+/* ---------------------------- main > bg8 끝 */

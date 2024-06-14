@@ -1,1 +1,30 @@
+/* 앤티앤스 반응형 (태블릿 1200px) */
+@media screen and (max-width: 1200px) {
+    main .bg4 .container {width: 100%; padding: 0 45px;}
+    main .bg4 .container .event_saving #event_frm {width: 100%;}
+
+    main .bg56 .container {width: 100%; padding: 0 42px;}
+    main .bg56 .container .best {margin-bottom: 80px;}
+    main .bg56 .container .best li p {font-size: 1.5rem;}
+
+
+    main .bg7 {
+        background-image: url(../images/tb_bg7.jpg);
+    }
+    main .bg7 .container {width: 100%;}
+    main .bg7 .container ul {
+        width: 100%;
+    }
+
+    main .bg8 .container {width: 100%;}
+    main .bg8 .container {padding: 0 60px;}
+    main .bg8 .container .sns_g a {width: calc(100% / 3) - 60px;}
+    main .bg8 .container .sns_g a img {width: calc(100% / 3) - 60px;}
+}
 /* 앤티앤스 반응형 (모바일 760px) */
+@media screen and (max-width: 760px) {
+    main .bg56 .container .best li h3 {font-size: 1.5rem;}
+    main .bg56 .container .best li p {font-size: 1rem;}
+    main .bg56 .container .best .product {height: 257px;}
+    main .bg56 .container .best .product img {height: 100%}
+}

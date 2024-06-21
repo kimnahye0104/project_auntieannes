@@ -8,6 +8,6 @@ console.log(save_btn)
 btn_func() */
 
 save_btn.addEventListener('click', function(){
-    let save_q = alert('한줄평(이벤트)을 등록하시겠습니까?')
+    let save_q = confirm('한줄평(이벤트)을 등록하시겠습니까?')
     let save_end = alert('이벤트 참여 완료되었습니다.')
 })

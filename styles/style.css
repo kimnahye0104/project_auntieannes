@@ -51,7 +51,7 @@ header .pc_gnb a:hover::after {
 header .pc_gnb a:last-child {margin: 0;}
 header .m_gnb {display: none;}
 /* ---------------------------- header 끝 */
-main {letter-spacing: -0.4px; background-color: pink;}
+main {letter-spacing: -0.4px; /* background-color: pink; */}
 main .bg {}
 main .bg h2 {font-size: 3.75rem; font-weight: 700;}
 main .bg .title > p {font-size: 1.625rem;}

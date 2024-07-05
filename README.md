@@ -1,16 +1,15 @@
-# AuntieAnnes
+# **AuntieAnnes**
 * **type :** 랜딩페이지(landingpage)
 * **responsive :** `반응형` ( desktop / tablet / mobile )
 * **date :** 24.06.10 ~ 24.06.20
-    ~ 24.06.21 (수정/완료 1차)
+> ~ 24.06.21 (수정/완료 1차)
 
 ***
 ## PROTOTYPE (프로토타입)
-<img src="../readme/images/github_project_auntieannes.jpg" width="100%" height="1000px" alt="project_result_img"></img>
-
+![김나혜 프로젝트 앤티앤스프레즐 대표 이미지](../readme/images/github_project_auntieannes.jpg)
 ### 주소 (url)
 **랜딩 페이지**
-`http://knhweb.dothome.co.kr/project/project_auntieannes/index.html`
+[kimnahye_project_link](http://knhweb.dothome.co.kr/project/project_auntieannes/index.html, "kimnahye project link")
 <!-- * **서브 페이지 (0개)** -->
 
 ### PRODUCER INFO

@@ -1,17 +1,16 @@
 # AuntieAnnes
 * **type :** 랜딩페이지(landingpage)
 * **responsive :** `반응형` ( desktop / tablet / mobile )
-* **date :** `start` 24.06.10 ~ `end` 24.06.20
-* ~ `end` 24.06.21 (수정/완료 1차)
+* **date :** 24.06.10 ~ 24.06.20
+    ~ 24.06.21 (수정/완료 1차)
 
 ***
-## result(결과)
-### 대표 이미지
-<img src="../readme/images/github_project_auntieannes.jpg" width="100%" alt="project_result_img"></img>
+## PROTOTYPE (프로토타입)
+<img src="../readme/images/github_project_auntieannes.jpg" width="100%" height="1000px" alt="project_result_img"></img>
 
 ### 주소 (url)
-* **랜딩 페이지**
-* `http://knhweb.dothome.co.kr/project/project_auntieannes/index.html`
+**랜딩 페이지**
+`http://knhweb.dothome.co.kr/project/project_auntieannes/index.html`
 <!-- * **서브 페이지 (0개)** -->
 
 ### PRODUCER INFO
@@ -41,6 +40,6 @@
 >   > * `24.06.14 ~ 24.06.20` <랜딩페이지> : css : 반응형 css 수정, header에 nav 추가 작업
 
 > ### 작업 내용 (작업 일지 '구현 어려움 1~5')
->   > * `css` **선택자:hover 값 작성** : hover 속성을 처음에 넣을 때 transition을 활용하지 않아, 동적 움직임을 디테일하게 만들지 않음. (`구현 어려움 : 2 `)
->   > * `css` **반응형 css 값 작성** : width: 100%; 등의 상대적인 가로 값을 이해하는 데에 어려움을 겪었음. (`구현 어려움 : 4 `)
->   > * `js` **한줄평 등록 버튼 이벤트** : 한줄평 등록 시, 뜨는 팝업창(경고창 alert, confirm)의 기능을 몰라 구현하지 못했었음. (`구현 어려움 : 3 `)
+>   > * `hover css 값 작성` : hover 속성을 처음에 넣을 때 transition을 활용하지 않아, 동적 움직임을 디테일하게 만들지 않음. (`구현 어려움 : 2 `)
+>   > * `반응형 css 값 작성` : width: 100%; 등의 상대적인 가로 값을 이해하는 데에 어려움을 겪었음. (`구현 어려움 : 4 `)
+>   > * `한줄평 등록 버튼 js 이벤트` : 한줄평 등록 시, 뜨는 팝업창(경고창 alert, confirm)의 기능을 몰라 구현하지 못했었음. (`구현 어려움 : 3 `)

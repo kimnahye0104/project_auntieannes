@@ -6,10 +6,10 @@
 
 ***
 ## PROTOTYPE (프로토타입)
-![김나혜 프로젝트 앤티앤스프레즐 대표 이미지](../readme/images/github_project_auntieannes.jpg)
+
 ### 주소 (url)
 **랜딩 페이지**
-[kimnahye_project_link](http://knhweb.dothome.co.kr/project/project_auntieannes/index.html, "kimnahye project link")
+* <http://knhweb.dothome.co.kr/project/project_auntieannes/index.html>
 <!-- * **서브 페이지 (0개)** -->
 
 ### PRODUCER INFO

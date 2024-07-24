@@ -9,7 +9,7 @@
 
 ### 주소 (url)
 **랜딩 페이지**
-* <http://knhweb.dothome.co.kr/project/project_auntieannes/index.html>
+* <http://knhweb.dothome.co.kr/portfolio/project_auntieannes/index.html>
 <!-- * **서브 페이지 (0개)** -->
 
 ### PRODUCER INFO
